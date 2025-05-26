@@ -1,3 +1,7 @@
+body {
+  background-color: #1b4e4f;
+}
+
 .post-container {
       border: 1px solid #ccc;
       margin-bottom: 20px;
@@ -121,4 +125,41 @@
         width: 60%; /* Adjust details width */
         margin-left: 0;
       }
+    }
+
+    header {
+      background-color: #1b4e4f;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links a, .logout {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo img {
+      margin-bottom: 4px;
+      margin-right: 4px;
+    }
+    .nav-links {
+      background-color: white;
+      color:#1b4e4f;
+      height: 20px;
+      padding: 5px 25px;
+    }
+    a {
+      color:#1b4e4f !important;
     }
